@@ -1,102 +1,102 @@
 var p = [   // Array de Pergunta
-  { pergunta: '1. Quantas letras e fonemas a palavra "mato" possui ?',
+  { pergunta: '1. Qual das alternativas representa os números naturais "N" ?',
     alternativas: {
-      0: "A - 4 letras e 4 fonemas",
-      1: "B - 4 letras e 3 fonemas",
-      2: "C - 2 letras e 4 fonemas",
-      3: "D - 4 letras e 1 fonema",
+      0: "A - {0, 1, 2, 3, 4, 5...}",
+      1: "B - {1, 2, 3, 4, 5, 6...}",
+      2: "C - {2, 4, 6, 8, 10...}",
+      3: "D - {1, 3, 5, 7, 9,...}",
     },
     resposta: 0 
   },
 
-  { pergunta: '2. O que é um fonema ?',
+  { pergunta: '2. Qual das alternativas representa os números naturais não-nulos "N*" ?',
     alternativas: {
-      0: "A - É um tipo de letra",
-      1: "B - É um som emitido por uma letra",
-      2: "C - É o som emitido por uma palavra",
-      3: "D - É uma classe de vogal",
+      0: "A - {0, 1, 2, 3, 4, 5...}",
+      1: "B - {1, 2, 3, 4, 5, 6...}",
+      2: "C - {2, 4, 6, 8, 10...}",
+      3: "D - {1, 3, 5, 7, 9,...}",
     },
     resposta: 1
   },
 
-  { pergunta: '3. O que é dígrafo ?',
+  { pergunta: '3. Qual antecessor e sucessor do número 1, respectivamente ?',
     alternativas: {
-      0: "A - São duas letras representando apenas um fonema (som)",
-      1: "B - São dois fonemas(sons) representados por uma letra",
-      2: "C - É um tipo de palavra",
-      3: "D - É um tipo de consoante",
+      0: "A - 1 e 2",
+      1: "B - 2 e 3",
+      2: "C - 0 e 3",
+      3: "D - 0 e 2",
     },
-    resposta: 0
+    resposta: 3
   },
 
-  { pergunta: '4. O que é dífono ?',
+  { pergunta: '4. Qual antecessor e sucessor do número 10, respectivamente ?',
     alternativas: {
-      0: "A - São duas letras representando apenas um fonema (som)",
-      1: "B - São dois fonemas(sons) representados por uma letra",
-      2: "C - O Pequeno Príncipe",
-      3: "D - Ela, a Feiticeira",
-    },
-    resposta: 1
-  },
-
-  { pergunta: '5. Qual o único dífono possível da língua portuguesa ?',
-    alternativas: {
-      0: 'A - A letra "X"',
-      1: 'B - A junção de "CH"',
-      2: 'C - A junção de "LH"',
-      3: 'D - A junção de "AM", "EM" e "OM"',
-    },
-    resposta: 0
-  },
-
-  { pergunta: '6. Na palavra "hora" existem quantas letras e fonemas ?',
-    alternativas: {
-      0: "A - 4 letras e 2 fonemas",
-      1: "B - 4 letras e 4 fonemas",
-      2: "C - 4 letras e 3 fonemas",
-      3: "D - 4 letras e 1 fonema",
+      0: "A - 8 e 12",
+      1: "B - 9 e 8",
+      2: "C - 9 e 11",
+      3: "D - 11 e 9",
     },
     resposta: 2
   },
 
-  { pergunta: '7. Na palavra "chuva" existem quantas letras e fonemas ?',
+  { pergunta: '5. O que são Número Naturais "N" ?',
     alternativas: {
-      0: "A - 5 letras e 5 fonemas",
-      1: "B - 5 letras e 4 fonemas",
-      2: "C - 4 letras e 5 fonemas",
-      3: "D - 5 letras e 3 fonemas",
+      0: 'A - São todos os números existentes',
+      1: 'B - São todos os números positivos ( não incluindo o número 0 )',
+      2: 'C - É o conjunto dos números inteiros não-negativos até o número 99999',
+      3: 'D - É o conjunto dos números inteiros não-negativos com número ilimitado elementos',
     },
-    resposta: 1
+    resposta: 3
   },
 
-  { pergunta: '8. A palavra "tóxico" tem quantas letras e fonemas ?',
+  { pergunta: '6. Quanto é 2 + 3 ?',
     alternativas: {
-      0: "A - 6 letras e 7 fonemas",
-      1: "B - 6 letras e 6 fonemas",
-      2: "C - 6 letras e 5 fonemas",
-      3: "D -  6 letras e 1 fonema",
+      0: "A)  5",
+      1: "B)  3",
+      2: "C)  23",
+      3: "D)  11",
     },
     resposta: 0
   },
 
-  { pergunta: '9. A palavra "táxi" tem quantas letras e fonemas ?',
+  { pergunta: '7. Quanto é 5 + 5 ?',
     alternativas: {
-      0: "A - 4 letras e 1 fonema",
-      1: "B - 4 letras e 3 fonemas",
-      2: "C - 4 letras e 4 fonemas",
-      3: "D - 4 letras e 5 fonemas",
+      0: "A)  5",
+      1: "B)  20",
+      2: "C)  55",
+      3: "D)  10",
     },
-    resposta: 3
+    resposta: 1
   },
 
-  { pergunta: '10. Qual a(s) única(s) letra que não tem fonema (som)?',
+  { pergunta: '8. Quanto é 5 - 3 ?',
     alternativas: {
-      0: 'A - Letra "R" e "S"',
-      1: 'B - Letra "X" e "CH"',
-      2: 'C - Letra "A"',
-      3: 'D - Letra "H"',
+      0: "A)  2",
+      1: "B)  4",
+      2: "C)  8",
+      3: "D)   10",
     },
-    resposta: 3
+    resposta: 0
+  },
+
+  { pergunta: '9. Quanto é 20 - 10 ?',
+    alternativas: {
+      0: "A)  15",
+      1: "B)  10",
+      2: "C)  5",
+      3: "D)  1",
+    },
+    resposta: 1
+  },
+
+  { pergunta: '10. Quanto é 5 - 10 ?',
+    alternativas: {
+      0: 'A)  5',
+      1: 'B)  15',
+      2: 'C)  -5',
+      3: 'D)  10',
+    },
+    resposta: 2
   },
 ];
 var intro = window.document.getElementById("intro");
