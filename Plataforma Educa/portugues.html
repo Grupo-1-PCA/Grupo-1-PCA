@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Português</title>
+    <link rel="stylesheet" href="_css/normalize.css">
+    <link rel="stylesheet" href="_css/grid.css">
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+
+<body class="portugues">
+    <header>
+        <div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="./portugues.html">
+                            <h2>Português</h2>
+                        </a></li>
+                    <li><a href="./index.html">
+                            <h1>Início</h1>
+                        </a></li>
+                    <li><a href="./matematica.html">
+                            <h2>Matemática</h2>
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="materia-subtitulo">
+        <div class="corpo">
+
+            <h1>Português</h1>
+        </div>
+    </section>
+
+    <section id="intro" class="materia">
+
+
+        <div class="corpo">
+            <h2 class="subtitulo-materia">Introdução</h2>
+
+            <div class="sobre-materia">
+
+                <p> O português é o quinto idioma mais falado mundo - mais de 260
+                    milhões de pessoas utilizam como língua principal para se comunicarem. Entre os
+                    países que o tem como idioma oficial, citamos o Brasil, Portugal, Angola, Cabo Verde,
+                    Guiné-Bissau, Macau, Moçambique, São Tomé e Príncipe, Timor Leste e Guiné Equatorial
+                    (Leia mais em Lusofonia).</p>
+
+                <p> Em 1990 foi criado o Novo Acordo Ortográfico da Língua
+                    Portuguesa, que tem por objetivo padronizar a escrita de algumas palavras em todos os
+                    países que o utilizam oficialmente. O Brasil aderiu ao acordo em 2009.</p>
+
+            </div>
+
+            <img class="sobre-imagem" src="_img/livro.svg" alt="Aluno">
+
+
+        </div>
+
+
+    </section>
+
+    <section id="materia" class="materia">
+
+
+        <div class="corpo">
+            <h2 class="subtitulo-materia">Dífono e Dígrafo</h2>
+
+            <div class="sobre-materia sobre-materia-cheio">
+
+                <p><span>As palavras são formadas por sílabas que para existirem necessitam da junção das letras. Cada uma dessas letras emite um som que é chamado de fonema. Quando duas delas se juntam e produzem um único fonema recebe o nome de dígrafo. No entanto, o contrário também pode acontecer. Ou seja, uma única letra pode emitir mais de um fonema e nesse caso ela é chamada de dífono.</span>
+                </p>
+
+                <p>O <strong>dígrafo</strong> nada mais é que a junção de duas letras que representam apenas um som. Nesse caso, a segunda letra é chamada de diacrítica, pois sua existência serve apenas para ajudar na pronúncia.
+                </p>
+
+                <p> Dois ótimos exemplos são as palavras CARO e CARRO. O som emitido pelo R da primeira palavra é diferente do RR da segunda. Sendo que, nesse caso, o segundo R trata-se de uma letra diacrítica.
+                </p>
+
+                <p> Assim elas podem ser classificadas em dois tipos:<br><br>
+                    <span class="indent"><strong>Consonantais</strong> – xs, xc, sç, sc, ss, rr, nh, lh, ch, qu, gu.</span> <br><br>
+                    <span class="indent"><strong>Vocálicas</strong> – as vogais possuem na mesma sílaba as letras M ou N.</span>
+                </p>
+
+                <p>Você já parou para observar a quantidade de letras e fonemas existentes na palavra TÁXI? Ela é constituída por 4 letras T-A-X-I, mas a quantidade de fonema é maior, é 5. Essa diferença existe porque a letra X emite o som de KS, ou seja, dois sons para uma mesma letra. Isso é o que chamamos de dífonos.<br><br>
+                    A letra X é o <strong>único</strong> dígrafo da língua portuguesa.
+                </p>
+
+                <button class="btn" onclick="proximaPergunta()">Exercícios</button>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="quiz" class="inativa materia">
+        <div class="grid-16 quiz">
+
+            <!-- perguntas -->
+            <p id="pergunta"></p>
+
+            <!-- respostas -->
+            <ul>
+                <li id="resp1" onclick="verificaResposta(0)"></li>
+                <li id="resp2" onclick="verificaResposta(1)"></li>
+                <li id="resp3" onclick="verificaResposta(2)"></li>
+                <li id="resp4" onclick="verificaResposta(3)"></li>
+            </ul>
+
+
+            <p id="perguntaAtualTexto">x</p>
+
+            <!-- botões -->
+            <div class="botoes">
+                <button class="nxtbtn" onclick="proximaPergunta()">
+                    Próximo
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="result" class="grid-16 quiz inativa">
+
+            <!-- resultado -->
+            <p id="resultado_final">Você não selecionou nada, recarregue a página.</p>
+            <p id="mensagem_final"></p>
+
+        </div>
+    </section>
+
+    <footer>
+        <h3>&copy; Grupo 1 -PCA</h3>
+    </footer>
+
+    <script src="_js/quiz-port.js"></script>
+</body>
+
+</html>
